@@ -1,0 +1,3 @@
+C:\Users\Dharmang Solanki\Documents\Portflio\MyWebSite\obj\Debug\MyWebSite.pyproj.CoreCompileInputs.cache
+C:\Users\Dharmang Solanki\Documents\Portflio\MyWebSite\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Dharmang Solanki\Documents\Portflio\MyWebSite\bin\wfastcgi.py

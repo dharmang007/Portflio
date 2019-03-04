@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{13b1863f-78fa-4bb8-9a6c-70bca39cd198}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <InterpreterId />
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <DjangoSettingsModule>MyWebSite.settings</DjangoSettingsModule>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="manage.py" />
+    <Compile Include="MyProfile\admin.py" />
+    <Compile Include="MyProfile\apps.py" />
+    <Compile Include="MyProfile\migrations\__init__.py" />
+    <Compile Include="MyProfile\models.py" />
+    <Compile Include="MyProfile\tests.py" />
+    <Compile Include="MyProfile\urls.py" />
+    <Compile Include="MyProfile\views.py" />
+    <Compile Include="MyProfile\__init__.py" />
+    <Compile Include="MyWebSite\settings.py" />
+    <Compile Include="MyWebSite\urls.py" />
+    <Compile Include="MyWebSite\wsgi.py" />
+    <Compile Include="MyWebSite\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MyProfile\static\personal\css\bootstrap-theme.css" />
+    <Content Include="MyProfile\static\personal\css\bootstrap-theme.min.css" />
+    <Content Include="MyProfile\static\personal\css\bootstrap.css" />
+    <Content Include="MyProfile\static\personal\css\bootstrap.min.css" />
+    <Content Include="MyProfile\static\personal\css\CustomCSS\home.css" />
+    <Content Include="MyProfile\static\personal\css\CustomCSS\images\Name.jpg" />
+    <Content Include="MyProfile\static\personal\css\CustomCSS\images\profile.jpg" />
+    <Content Include="MyProfile\static\personal\css\CustomCSS\images\profile2.jpg" />
+    <Content Include="MyProfile\static\personal\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="MyProfile\static\personal\js\bootstrap.js" />
+    <Content Include="MyProfile\static\personal\js\bootstrap.min.js" />
+    <Content Include="MyProfile\static\personal\js\npm.js" />
+    <Content Include="MyProfile\templates\MyProfile\header.html" />
+    <Content Include="MyProfile\templates\MyProfile\includes\aboutMe.html" />
+    <Content Include="MyProfile\templates\MyProfile\includes\contact.html" />
+    <Content Include="MyProfile\templates\MyProfile\includes\home.html" />
+    <Content Include="MyProfile\templates\MyProfile\includes\htmlsnippets.html" />
+    <Content Include="MyProfile\templates\MyProfile\includes\index.html" />
+    <Content Include="MyProfile\templates\MyProfile\includes\myAcademics.html" />
+    <Content Include="MyProfile\templates\MyProfile\includes\myArt.html" />
+    <Content Include="MyProfile\templates\MyProfile\index.html" />
+    <Content Include="templatemo_498_stimulus\credits.txt" />
+    <Content Include="templatemo_498_stimulus\css\animate.css" />
+    <Content Include="templatemo_498_stimulus\css\bootstrap.min.css" />
+    <Content Include="templatemo_498_stimulus\css\font-awesome.min.css" />
+    <Content Include="templatemo_498_stimulus\css\templatemo-style.css" />
+    <Content Include="templatemo_498_stimulus\fonts\fontawesome-webfont.svg" />
+    <Content Include="templatemo_498_stimulus\images\about-img.jpg" />
+    <Content Include="templatemo_498_stimulus\images\contact-img.jpg" />
+    <Content Include="templatemo_498_stimulus\images\education-img.jpg" />
+    <Content Include="templatemo_498_stimulus\images\experience-img.jpg" />
+    <Content Include="templatemo_498_stimulus\images\home-img.jpg" />
+    <Content Include="templatemo_498_stimulus\images\quotes-bg.jpg" />
+    <Content Include="templatemo_498_stimulus\index.html" />
+    <Content Include="templatemo_498_stimulus\js\bootstrap.min.js" />
+    <Content Include="templatemo_498_stimulus\js\custom.js" />
+    <Content Include="templatemo_498_stimulus\js\jquery.js" />
+    <Content Include="templatemo_498_stimulus\js\jquery.parallax.js" />
+    <Content Include="templatemo_498_stimulus\js\smoothscroll.js" />
+    <Content Include="templatemo_498_stimulus\js\wow.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MyProfile" />
+    <Folder Include="MyProfile\migrations" />
+    <Folder Include="MyProfile\static\" />
+    <Folder Include="MyProfile\static\personal\" />
+    <Folder Include="MyProfile\static\personal\css" />
+    <Folder Include="MyProfile\static\personal\css\CustomCSS" />
+    <Folder Include="MyProfile\static\personal\css\CustomCSS\images" />
+    <Folder Include="MyProfile\static\personal\fonts" />
+    <Folder Include="MyProfile\static\personal\js" />
+    <Folder Include="MyProfile\templates\" />
+    <Folder Include="MyProfile\templates\MyProfile" />
+    <Folder Include="MyProfile\templates\MyProfile\includes" />
+    <Folder Include="MyWebSite" />
+    <Folder Include="templatemo_498_stimulus" />
+    <Folder Include="templatemo_498_stimulus\css" />
+    <Folder Include="templatemo_498_stimulus\fonts" />
+    <Folder Include="templatemo_498_stimulus\images" />
+    <Folder Include="templatemo_498_stimulus\js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
