@@ -52,4 +52,9 @@
   background: rgb(80, 76, 95);
   color: rgb(1, 0, 5);
 }
+#HomeNav .nav li a:active
+{
+  background: rgb(80, 76, 95);
+  color: rgb(1, 0, 5);
+}
 
