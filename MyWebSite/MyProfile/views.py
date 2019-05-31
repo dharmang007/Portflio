@@ -17,3 +17,6 @@ def myAcademics(request):
 def aboutMe(request):
     return render(request,'MyProfile/includes/aboutMe.html')
 
+def projects(request):
+    return render(request,'MyProfile/includes/projects.html')
+

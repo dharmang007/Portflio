@@ -29,6 +29,10 @@
   color: rgb(255, 255, 255);
 }
 
+#content
+{
+  color: #000000;
+}
 .navbar li
 {
   display: block;
