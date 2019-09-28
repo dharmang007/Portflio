@@ -1,0 +1,14 @@
+{%extends "MyProfile/MyProfileMaster.html" %}
+
+{%block tabContent %}
+<div class="jumbotron">
+  <div class="container">
+    <H4>Contact Me</H4>
+    <p>
+    {% for c in content %}
+      <p>{{c}}</p>
+    {%endfor%}
+    </p>
+  </div>
+</div>
+{%endblock%}

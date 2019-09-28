@@ -2,7 +2,7 @@ from django.urls import re_path,include
 from . import views
 
 urlpatterns  = [
-    re_path(r'^home/',views.homePage,name='home'), # here I am returning the views, u can find this is views.py
+    re_path(r'^home/',views.homePage,name='homePage'), # here I am returning the views, u can find this is views.py
     re_path(r'^contact/',views.contact,name= 'contact'),
     re_path(r'^hobbies/',views.myArt,name ='art'),
     re_path(r'^projects/',views.projects),
