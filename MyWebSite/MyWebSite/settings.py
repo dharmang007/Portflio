@@ -26,7 +26,7 @@ SECRET_KEY = 'dll2a+cyhvx+ll*1ez@=r7zir8dz4t*vzb4s0f!m=nw^ovm2j#'
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['localhost','162.241.224.194']
+ALLOWED_HOSTS = ['localhost','3.87.207.164']
 
 # Application definition
 
